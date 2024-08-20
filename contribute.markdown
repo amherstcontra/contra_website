@@ -2,6 +2,7 @@
 layout: page
 title: Contribute
 permalink: /contribute/
+no_footer: true
 ---
 
 Want to get involved? Submissions are open to anyone in the Amherst College community, from student to employee. We publish main articles, which run between 600 and 1000 words. We also try to publish responses to every main article. Responses should be between 100 and 250 words. 
