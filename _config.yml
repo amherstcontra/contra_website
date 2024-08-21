@@ -21,7 +21,7 @@
 title: The Amherst Contra
 email: theamherstcontra@gmail.com
 description: The Amherst Contra # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/contra_website" # the subpath of your site, e.g. /blog
 url: "https://amherstcontra.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
