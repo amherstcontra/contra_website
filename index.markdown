@@ -12,7 +12,7 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ first_post.content }}
-    <p class="author-tag"><em>&mdash;{{ first_post.author | default: 'Anonymous' }}</em></p>
+    <p class="author-tag"><em>&mdash; {{ first_post.author | default: 'Anonymous' }}</em></p>
   </div>
 
   {%- if site.disqus.shortname -%}
