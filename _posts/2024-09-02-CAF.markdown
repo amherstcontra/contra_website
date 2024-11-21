@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Make Freshman Year Pass/Fail"
+title:  "What Happened to Amherst's Committe of the American Founding?"
 date:   2024-11-20 17:49:38 -0400
 issue: 2
 semester: Fall 2024
