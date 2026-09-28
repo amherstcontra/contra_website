@@ -13,7 +13,7 @@ That liberal education (education in the liberal arts) is under attack is nothin
 
 The aforementioned Working Group is eerily mute on these questions. Composed, as it is, predominantly of bureaucrats who live and work almost entirely outside the classroom, this fails to surprise. And so we are in a strange position wherein the College’s administration and its constituent departments seem stubbornly unwilling to assert their own purpose. The privilege of articulating the function of our institution therefore falls to us.
 
----
+<hr style="display:block;width:4em;max-width:4em;height:1px;margin:2em auto;padding:0;border:0;background-color:currentColor;">
 
 The term ‘liberal arts’ comes from the Latin term *artes liberales*, or ‘the arts of free people.’ They were so named because the inner freedom inculcated by liberal education was thought to prepare one for political freedom. Of course, this notion of predicating political freedom on certain qualities of mind is rather antiquated, but the point stands that the purpose of the liberal arts is to effect improvement along certain dimensions in the minds of its participants, an improvement not implausibly summarizable as freedom from ignorance. Liberal education serves to free one from the tyranny of received dogma; from a cloistered and culturally-bounded sense of possibility both worldly and conceptual; from an inability to introspect about one’s own beliefs, hopes, and worries; from credulity in the unplumbed surface of things; from an inability to face directly the world and understand it as intellectually tractable; from a very basic unawareness of the sorts of questions that can and ought to be grappled with, questions like “what ought I live *for*?”, questions that every one of us will face in the course of our one and only human life.
 
@@ -25,7 +25,7 @@ This difficult work occurs, primarily, through the processes of reading, writing
 
 With this conception of liberal education in view, it should be clear, indeed trivially obvious, that AI is strictly incompatible with every instrument and every aspiration of an education in the liberal arts. The delegation of one’s work to a corporatized machine renders impossible the edification of mind that is the true and final end of everything the liberal arts are for.
 
----
+<hr style="display:block;width:4em;max-width:4em;height:1px;margin:2em auto;padding:0;border:0;background-color:currentColor;">
 
 Though in this essay I have tried simply to make clear what it is that we lose when we ‘go Machine,’ the question remains: what are we to do? Certain reforms in assignment structure seem appropriate, as do new practices of detection and discipline.
 

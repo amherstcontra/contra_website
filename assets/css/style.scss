@@ -68,3 +68,15 @@ a {
 .post-list li {
     margin-bottom: 1px; /* Adjust the value as needed */
 }
+
+/* Override Minima's full-width hr (height + background, no border). */
+article.post .post-content hr {
+    display: block;
+    width: 4em;
+    max-width: 4em;
+    height: 1px;
+    margin: 2em auto;
+    padding: 0;
+    border: 0;
+    background-color: currentColor;
+}

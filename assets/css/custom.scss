@@ -1,21 +1,13 @@
---- --- ul {
-  margin-top: .25em;
-  /* Decrease the top margin */
-  margin-bottom: .25em;
-  /* Decrease the bottom margin */
-  font-size: .75em;
-}
+---
+---
 
+ul {
+    margin-top: .25em; /* Decrease the top margin */
+    margin-bottom: .25em; /* Decrease the bottom margin */
+    font-size: .75em;
+  }
+  
 ul li {
-  margin-top: 0.1em;
-  /* Decrease the top margin of each list item */
-  margin-bottom: 0.1em;
-  /* Decrease the bottom margin of each list item */
-}
-
-.post-content hr {
-  width: 4em;
-  margin: 2em auto;
-  border: none;
-  border-top: 1px solid currentColor;
-}
+    margin-top: 0.1em; /* Decrease the top margin of each list item */
+    margin-bottom: 0.1em; /* Decrease the bottom margin of each list item */
+  }
