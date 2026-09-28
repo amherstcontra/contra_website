@@ -1,82 +1,84 @@
----
-
----
-@import "{{ site.theme }}";
+--- --- @import "{{ site.theme }}";
 
 a {
-    color:  #5d3c85;
+  color: #5d3c85;
+  text-decoration: none;
+
+  &:visited {
+    color: #5d3c85;
+  }
+
+  &:hover {
+    color: #311a4d;
+    text-decoration: underline;
+  }
+
+  .social-media-list &:hover {
     text-decoration: none;
-  
-    &:visited {
-      color: #5d3c85;
-    }
-  
-    &:hover {
-      color: #311a4d;
+
+    .username {
       text-decoration: underline;
     }
-  
-    .social-media-list &:hover {
-      text-decoration: none;
-  
-      .username {
-        text-decoration: underline;
-      }
-    }
   }
+}
 
-  .site-header {
-    border-top: 5px solid #5d3c85;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: $spacing-unit * 1.865;
-  
-    // Positioning context for the mobile navigation icon
-    position: relative;
-  }
+.site-header {
+  border-top: 5px solid #5d3c85;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: $spacing-unit * 1.865;
 
-  .container {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: "Cormorant";
-    color: #5d3c85;
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Cormorant";
+  color: #5d3c85;
 }
 
 .stacked-text {
-    font-size: 3em;
-    display: flex;
-    flex-direction: column;
-    text-align: right; /* Align text to the right */
-    margin-right: 10px;
-    line-height: .7; /* Removes extra space between "The" and "Amherst" */
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  /* Align text to the right */
+  margin-right: 10px;
+  line-height: .7;
+  /* Removes extra space between "The" and "Amherst" */
 }
 
 .large-text {
-    font-size: 6em; /* Double the size */
-    line-height: .8;
+  font-size: 6em;
+  /* Double the size */
+  line-height: .8;
 }
 
-.site-header, .page-content {
-    font-family: Georgia, serif;
+.site-header,
+.page-content {
+  font-family: Georgia, serif;
 }
 
 .wrapper {
-    font-family: Georgia, serif;
+  font-family: Georgia, serif;
 }
 
 .post-list li {
-    margin-bottom: 1px; /* Adjust the value as needed */
+  margin-bottom: 1px;
+  /* Adjust the value as needed */
 }
 
 /* Override Minima's full-width hr (height + background, no border). */
 article.post .post-content hr {
-    display: block;
-    width: 4em;
-    max-width: 4em;
-    height: 1px;
-    margin: 2em auto;
-    padding: 0;
-    border: 0;
-    background-color: currentColor;
+  display: block;
+  width: 4em;
+  max-width: 4em;
+  height: 1px;
+  margin: 2em auto;
+  padding: 0;
+  border: 0;
+  background-color: currentColor;
 }
