@@ -24,7 +24,7 @@ The *Contra* is a strictly non-partisan organization along all axes of disagreem
 
 Of course, pieces need not be perfect at the time of submission—this is what the editing process is for! 
 
-Historically, a significant majority of submissions end up published.
+Historically, a majority of submissions end up published.
 
 ### Response Letters
 
