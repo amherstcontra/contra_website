@@ -23,6 +23,7 @@ In considering submissions for publication, the *Contra* looks for three things:
 The *Contra* is a strictly non-partisan organization along all axes of disagreement. Hence, regardless of the views of its individual editors, it does not have an institutional viewpoint, whatever the topic might be. This means that a submission to the *Contra* will never be accepted or rejected on account of the editors’ personal opinions regarding the submission’s thesis, conclusion, or general thrust.
 
 Of course, pieces need not be perfect at the time of submission—this is what the editing process is for! 
+
 Historically, a significant majority of submissions end up published.
 
 ### Response Letters
