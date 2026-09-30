@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On Being a College"
-date:   2026-10-02 10:00:00 -0400
+date:   2026-09-30 09:00:00 -0400
 issue: 1
 semester: Fall 2026
 author: Anonymous
