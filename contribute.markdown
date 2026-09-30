@@ -8,6 +8,7 @@ no_footer: true
 Submissions are open to anyone in the Amherst College community, from students to staff to faculty to alumni, and can be emailed to **theamherstcontra@gmail.com** along with whether or not you wish to publish anonymously. Submissions should be between 600 and 1300 words; response letters to past issues should fall between 100 and 500 words. 
 
 We do not publish submissions prepared with the assistance of artificial intelligence, and reserve the right to reject any article on grounds of suspicion of AI use, up to and past the point of publication.
+
 If you want to get involved another way, send us an email as well. We’re a student organization open to anyone.
 
 ### Editorial Logistics
