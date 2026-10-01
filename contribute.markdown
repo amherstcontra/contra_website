@@ -21,7 +21,7 @@ To safeguard anonymity, only the Editor-in-Chief has access to the identities of
 
 In considering submissions for publication, the *Contra* looks for three things: (1) a well-evidenced and well-reasoned argument, (2) clear and precise writing, and (3) pertinence to the College. 
 
-The *Contra* is a strictly non-partisan organization along all axes of disagreement. Hence, regardless of the views of its individual editors, it does not have an institutional viewpoint, whatever the topic might be. This means that a submission to the *Contra* will never be accepted or rejected on account of the editors’ personal opinions regarding the submission’s thesis, conclusion, or general thrust.
+The *Contra* is a strictly non-partisan organization along all axes of disagreement. Hence, regardless of the views of its individual editors, it does not have an institutional viewpoint, whatever the topic might be. This means that a submission to the *Contra* will never be accepted or rejected on account of the editors’ personal opinions regarding the submission’s thesis, conclusion, or general thrust. For evidence of our commitment to viewpoint diversity and editorial quality, we invite our readers to peruse [our past issues]({{ "/archive/" | relative_url }}).
 
 Of course, pieces need not be perfect at the time of submission—this is what the editing process is for! 
 
