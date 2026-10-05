@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
 
-    {% unless page.no_footer %}
-        {% include footer.html %}
-    {% endunless %}
+  {% unless page.no_footer %}
+  {% include footer.html %}
+  {% endunless %}
 
-  </body>
+  <!-- Cloudflare Web Analytics -->
+  <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js'
+    data-cf-beacon='{"token": "68cc129546ea4a49b9fb19f67b4e31a0"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
 
 </html>
