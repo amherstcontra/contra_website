@@ -1,7 +1,7 @@
 ---
 layout: response
 title: "Response to \"On Being a College\" "
-date: 2026-10-02 09:00:00 -0400
+date: 2026-11-02 09:00:00 -0400
 issue: 2
 semester: Fall 2026
 author: Anonymous
