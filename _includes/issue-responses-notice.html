@@ -18,7 +18,7 @@
       {%- if original -%}
         {%- assign shown = shown | plus: 1 -%}
         {%- if notice_count > 1 and shown == notice_count %} and{% elsif shown > 1 %};{% endif %}
-        a <a href="{{ original.url | relative_url }}#response-{{ response.slug }}">response</a> to <em>{{ original.title | escape }}</em> (Issue {{ original.issue }}, {{ original.semester }})
+        a <a href="{{ original.url | relative_url }}#response-{{ response.slug }}">response</a> to &ldquo;{{ original.title | escape }}&rdquo; (Issue {{ original.issue }}, {{ original.semester }})
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}.
