@@ -9,7 +9,7 @@
       <p class="post-meta">Response · published with Issue {{ response.issue }}, {{ response.semester }}</p>
     </header>
     <div class="response-content">
-      {{ response.content }}
+      {{ response.content | markdownify }}
       <p class="author-tag"><em>&mdash; {{ response.author | default: "Anonymous" }}</em></p>
     </div>
   </article>

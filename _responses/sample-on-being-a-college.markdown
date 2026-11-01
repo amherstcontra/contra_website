@@ -24,6 +24,6 @@ A culture of shame reads as ingroup fighting. The AI we are familiar with now is
 
 For those trying to understand and adapt to AI, here are some things to consider:
 
-• To bypass the automatic AI overview, type -ai after your search, or -[any letter that's not in your query].
-• Ask your professor how they would operate with this technology if they were a student in current times.
-• Get involved in IRL discussions and action. For example, a group of Amherst students went to Boston on October 3rd to rally for the Mass Wins Act, which advocates for transparency and third-party evaluations on AI models.
+- To bypass the automatic AI overview, type -ai after your search, or -[any letter that's not in your query].
+- Ask your professor how they would operate with this technology if they were a student in current times.
+- Get involved in IRL discussions and action. For example, a group of Amherst students went to Boston on October 3rd to rally for the Mass Wins Act, which advocates for transparency and third-party evaluations on AI models.
