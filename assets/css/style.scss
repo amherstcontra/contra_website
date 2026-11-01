@@ -85,6 +85,57 @@ article.post .post-content hr {
   background-color: currentColor;
 }
 
-article.post .post-content .author-tag {
+article.post .post-content .author-tag,
+.response-content .author-tag {
   text-align: right;
+}
+
+.issue-responses-notice {
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+
+.article-responses {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid $grey-color-light;
+}
+
+.response-heading {
+  font-size: 1.25em;
+  margin-bottom: 0.25em;
+}
+
+.response + .response {
+  margin-top: 2.5em;
+  padding-top: 2em;
+  border-top: 1px solid $grey-color-light;
+}
+
+.archive-semester {
+  margin-bottom: 2em;
+}
+
+.archive-semester-title {
+  font-size: 1.35em;
+  margin-bottom: 0.5em;
+}
+
+.archive-issue-title {
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+  margin: 1em 0 0.25em;
+}
+
+.archive-responses {
+  list-style: none;
+  margin: 0 0 0.5em 1.25em;
+  padding: 0;
+  font-size: 1em;
+}
+
+.archive-response-meta {
+  color: $grey-color;
+  font-size: 0.85em;
 }

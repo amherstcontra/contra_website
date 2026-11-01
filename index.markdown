@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign first_post = site.posts.first %}
+{% include issue-responses-notice.html post=first_post %}
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -14,6 +15,8 @@ layout: default
     {{ first_post.content }}
     <p class="author-tag"><em>&mdash; {{ first_post.author | default: 'Anonymous' }}</em></p>
   </div>
+
+  {%- include article-responses.html post=first_post -%}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

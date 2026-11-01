@@ -1,0 +1,18 @@
+{%- assign article = include.post -%}
+{%- assign article_responses = site.responses | where: "responds_to", article.slug | sort: "date" -%}
+{%- if article_responses.size > 0 -%}
+<section class="article-responses">
+  {%- for response in article_responses -%}
+  <article class="response" id="response-{{ response.slug }}">
+    <header class="response-header">
+      <h2 class="response-heading">{{ response.title | default: "A response" | escape }}</h2>
+      <p class="post-meta">Response · published with Issue {{ response.issue }}, {{ response.semester }}</p>
+    </header>
+    <div class="response-content">
+      {{ response.content }}
+      <p class="author-tag"><em>&mdash; {{ response.author | default: "Anonymous" }}</em></p>
+    </div>
+  </article>
+  {%- endfor -%}
+</section>
+{%- endif -%}

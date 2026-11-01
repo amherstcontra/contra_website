@@ -1,0 +1,26 @@
+{%- assign current = include.post -%}
+{%- assign notice_count = 0 -%}
+{%- for response in site.responses -%}
+  {%- if response.semester == current.semester and response.issue == current.issue and response.responds_to != current.slug -%}
+    {%- assign original = site.posts | where: "slug", response.responds_to | first -%}
+    {%- if original -%}
+      {%- assign notice_count = notice_count | plus: 1 -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if notice_count > 0 -%}
+<p class="issue-responses-notice">
+  Also published with this issue:
+  {%- assign shown = 0 -%}
+  {%- for response in site.responses -%}
+    {%- if response.semester == current.semester and response.issue == current.issue and response.responds_to != current.slug -%}
+      {%- assign original = site.posts | where: "slug", response.responds_to | first -%}
+      {%- if original -%}
+        {%- assign shown = shown | plus: 1 -%}
+        {%- if notice_count > 1 and shown == notice_count %} and{% elsif shown > 1 %};{% endif %}
+        a <a href="{{ original.url | relative_url }}#response-{{ response.slug }}">response</a> to <em>{{ original.title | escape }}</em>
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}.
+</p>
+{%- endif -%}

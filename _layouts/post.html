@@ -16,6 +16,8 @@ layout: default
     <p class="author-tag"><em>&mdash; {{ page.author | default: 'Anonymous' }}</em></p>
   </div>
 
+  {%- include article-responses.html post=page -%}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
