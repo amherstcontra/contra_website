@@ -23,10 +23,10 @@ In considering submissions for publication, the *Contra* looks for three things:
 
 *Contra* is a strictly non-partisan organization along all axes of disagreement. Hence, regardless of the views of its individual editors, it does not have an institutional viewpoint, whatever the topic. This means that a submission to the *Contra* will never be accepted or rejected on account of the editors’ personal opinions regarding the submission’s thesis, conclusion, or general thrust. For evidence of our commitment to viewpoint diversity and editorial quality, we invite our readers to peruse [our past issues]({{ "/archive/" | relative_url }}).
 
-Of course, pieces need not be perfect at the time of submission—this is what the editing process is for! 
+Of course, pieces need not be perfect at the time of submission—this is what the editing process is for.
 
 Historically, a majority of submissions end up published.
 
 ### Response Letters
 
-Members of the Amherst College community are encouraged to respond to our most recent issue in 100-500 words, and can do so anonymously. These responses will be published in full only on our website, though a brief summary of the response will be published in the next print issue, along with a link to the full response.
+Members of the Amherst College community are encouraged to respond to our most recent issue in 100-500 words, and can do so anonymously. These responses will be published in full on our website and in print as space permits.
